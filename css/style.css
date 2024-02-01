@@ -1,0 +1,16 @@
+:root{
+    --primery-text-color:#757575;
+    --title-text-color:#212121;
+    --primary-button-color:#188ce8;
+    --backround-button-color:#f5f4fa;
+    --secondary-backround-color:#2f303a;
+    --accent-color:#2196f3;
+    --secondary-address-color:rgba(255, 255, 255, 0.6);
+    --logo-color:#000000;
+    --backround-team-color:#f5f4fa;
+    --primary-backround-color:#fff;
+} 
+.hero-btn{
+    background-color: var(--accent-color);
+    color: var(--primary-backround-color);
+}
