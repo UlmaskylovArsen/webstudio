@@ -10,6 +10,9 @@
     --backround-team-color:#f5f4fa;
     --primary-backround-color:#fff;
 } 
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .hero-btn{
     background-color: var(--accent-color);
     color: var(--primary-backround-color);
