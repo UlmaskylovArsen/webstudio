@@ -18,13 +18,14 @@ body{
     font-weight: 700;
 font-size: 26px;
 letter-spacing: 0.03em; 
-color: var(--accent-color); 
+color: var(--accent-color);  
+margin-right: 93px;
 }
 .hero-btn{
     background-color: var(--accent-color);
     color: var(--primary-backround-color); 
     font-weight: 700; 
-    line-height: 1.87;
+    line-height: 1.87; 
 }  
 .logo-black{
     color: var(--logo-color);
@@ -111,7 +112,8 @@ font-family: 'Raleway',sans-serif;
 font-size: 14px;
 line-height: 171%;
 letter-spacing: 0.03em; 
-color: var(--primary-backround-color);
+color: var(--primary-backround-color); 
+margin-top: 20px;
 } 
 .address-link{
     font-weight: 400;
@@ -140,4 +142,56 @@ font-size: 18px;
 line-height: 200%;
 letter-spacing: 0.06em; 
 color: var(--primery-text-color);
+} 
+.navigation-list{
+    display: flex;
+} 
+.navigation-item{
+    margin-right: 50px;
+} 
+.contacts{
+    display: flex;
+} 
+.contacts-item{
+    margin-left: 50px;
+} 
+.navigation{
+    display: flex; 
+    align-items: center;
+} 
+.header-wrap{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+} 
+.benefits-list{
+    display: flex; 
+    justify-content: space-between;
+} 
+.benefits-item{
+    width: 270px;
+} 
+.work-list{
+    display: flex;  
+    justify-content: space-between;
+} 
+.work-item{
+width: 370px;
+} 
+.team-list{
+    display: flex; 
+    justify-content: space-between;
+} 
+.team-item{
+    width: 270px;
+} 
+.address{
+    display: flex;
+    flex-direction: column;
+} 
+.address-link{
+    margin-top: 9px;
 }
+
+     
+
